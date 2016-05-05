@@ -7,7 +7,16 @@ This file contains all software versions, that correspond to a version of this i
 
 Same as v2.1.1.
 
-Usage: `smebberson/alpine-nginx-nodejs` or `smebberson/alpine-nginx-nodejs:latest`.
+Usage: `nickmai/alpine-nginx-nodejs` or `nickmai/alpine-nginx-nodejs:latest`.
+
+## v2.1.2
+
+- [smebberson/alpine-nginx: v2.1.1][smebbersonalpinenginx211]
+- [nginx][nginx]: v1.8.0
+- [Node.js][nodejs]: v6.0.0
+- [NPM][npm]: 3+
+
+Usage: `nickmai/alpine-nginx-nodejs:2.1.2`.
 
 ## v2.1.1
 
@@ -16,7 +25,7 @@ Usage: `smebberson/alpine-nginx-nodejs` or `smebberson/alpine-nginx-nodejs:lates
 - [Node.js][nodejs]: v4.2.2
 - [NPM][npm]: 3+
 
-Usage: `smebberson/alpine-nginx-nodejs:2.1.0`.
+Usage: `smebberson/alpine-nginx-nodejs:2.1.1`.
 
 ## v2.1.0
 

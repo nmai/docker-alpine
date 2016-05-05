@@ -1,7 +1,7 @@
 FROM smebberson/alpine-nginx:2.1.1
 MAINTAINER Scott Mebberson <scott@scottmebberson.com>
 
-ENV NODE_VERSION=v4.2.2 NPM_VERSION=3
+ENV NODE_VERSION=v6.0.0 NPM_VERSION=3
 
 RUN apk add --update git curl make gcc g++ python linux-headers libgcc libstdc++ && \
     curl -sSL https://nodejs.org/dist/${NODE_VERSION}/node-${NODE_VERSION}.tar.gz | tar -xz && \
